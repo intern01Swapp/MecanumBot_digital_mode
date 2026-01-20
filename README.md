@@ -19,9 +19,9 @@ MecanumBot_digital_mode/
 - Motor Driver: RMCS-2303 Digital Servo Motor Driver
 - Motors:
 - Pro-Range Planetary Gear DC Motors (PG36M555-19.2K)
-- • Rated Voltage: 12 V DC
-- • Rated Speed: ~262 RPM
-- • Gear Ratio: 19.2 : 1
+  - Rated Voltage: 12 V DC
+  - Rated Speed: ~262 RPM
+  - Gear Ratio: 19.2 : 1
 - Encoders:
 - OE-37 Hall-Effect Magnetic Encoder
 - • 7 PPR (per channel)
