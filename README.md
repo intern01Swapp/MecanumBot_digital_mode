@@ -23,14 +23,14 @@ MecanumBot_digital_mode/
   - Rated Speed: ~262 RPM
   - Gear Ratio: 19.2 : 1
 - Encoders:
-- OE-37 Hall-Effect Magnetic Encoder
-- • 7 PPR (per channel)
-- • Quadrature output (A & B channels)
+  - OE-37 Hall-Effect Magnetic Encoder
+  - 7 PPR (per channel)
+  - Quadrature output (A & B channels)
 - Chassis:
-- 4-wheel mecanum drive chassis with omni-directional motion
+  - 4-wheel mecanum drive chassis with omni-directional motion
 - Power Supply:
-- External DC power supply (as per motor and driver ratings)
-- 
+  - External DC power supply (as per motor and driver ratings)
+  
 ## Key Features
 
 Omni-directional mecanum drive control
