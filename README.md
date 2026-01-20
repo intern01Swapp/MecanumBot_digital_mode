@@ -44,10 +44,10 @@ MecanumBot_digital_mode/
 
 This project uses the RMCS-2303 Digital Servo Motor Driver in digital mode for motor control. The driver’s internal firmware handles low-level control, while the application sends speed and direction commands.
 
-Reference:
+**Reference:**
 RMCS-2303 Digital Servo Motor Driver – Official Datasheet
 
-Note:
+**Note:**
 Ensure the driver is set to digital mode and the baud rate matches the firmware configuration.
 
 ## Communication Flow
