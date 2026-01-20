@@ -31,6 +31,14 @@ MecanumBot_digital_mode/
   - 4-wheel mecanum drive chassis with omni-directional motion
 - **Power Supply:**
   - External DC power supply (as per motor and driver ratings)
+
+## Software Used
+
+- **PlatformIO (VS Code)** for embedded firmware development  
+- **Arduino Mega Firmware** located in a dedicated folder, containing its own `main.cpp`  
+- **ESP32 Firmware** maintained in a separate folder with an independent `main.cpp`  
+- Modular project structure allows independent build and testing of Arduino and ESP32 code
+
   
 ## Key Features
 
