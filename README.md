@@ -40,19 +40,19 @@ MecanumBot_digital_mode/
 - Real-time wireless command input via ESP32
 - Modular firmware structure (Arduino + ESP32)
 
-RMCS-2303 Motor Driver Library
+## RMCS-2303 Motor Driver Library
 
-This project uses the RMCS-2303 driver library for motor control in digital mode.
+This project uses the RMCS-2303 Digital Servo Motor Driver in digital mode for motor control. The driver’s internal firmware handles low-level control, while the application sends speed and direction commands.
 
-📄 Datasheet / Reference:
-RMCS-2303 Digital Servo Motor Driver – Updated Datasheet
-(Refer to the official RMCS-2303 documentation provided by the manufacturer)
+Reference:
+RMCS-2303 Digital Servo Motor Driver – Official Datasheet
 
-⚠️ Note: Ensure the RMCS-2303 driver is configured in digital mode and baud rate settings match the firmware.
+Note:
+Ensure the driver is set to digital mode and the baud rate matches the firmware configuration.
 
 ## Communication Flow
 ```
-Wi-Fi Commands → ESP32 → Serial/UART → Arduino Mega → RMCS-2303 → BLDC Motors
+Wi-Fi Commands → ESP32 → Serial/UART → Arduino Mega → RMCS-2303 → DC Motors
 ```
 ## Notes
 
