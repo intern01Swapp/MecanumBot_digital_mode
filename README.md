@@ -15,21 +15,21 @@ MecanumBot_digital_mode/
 
 ## Hardware Used
 
-- Controller: Arduino Mega 2560
-- Wireless Module: ESP32 (Wi-Fi based command receiver)
-- Motor Driver: RMCS-2303 Digital Servo Motor Driver
-- Motors:
+- **Controller:** Arduino Mega 2560
+- **Wireless Module:** ESP32 (Wi-Fi based command receiver)
+- **Motor Driver:** RMCS-2303 Digital Servo Motor Driver
+- **Motors:**
 - Pro-Range Planetary Gear DC Motors (PG36M555-19.2K)
   - Rated Voltage: 12 V DC
   - Rated Speed: ~262 RPM
   - Gear Ratio: 19.2 : 1
-- Encoders:
+- **Encoders:**
   - OE-37 Hall-Effect Magnetic Encoder
   - 7 PPR (per channel)
   - Quadrature output (A & B channels)
-- Chassis:
+- **Chassis:**
   - 4-wheel mecanum drive chassis with omni-directional motion
-- Power Supply:
+- **Power Supply:**
   - External DC power supply (as per motor and driver ratings)
   
 ## Key Features
