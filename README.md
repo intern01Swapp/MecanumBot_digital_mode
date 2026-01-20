@@ -2,6 +2,7 @@
 Wireless Mecanum robot using RMCS-2303  motor drivers, Arduino Mega 2560, and ESP32. Features omni-directional motion (forward, lateral, diagonal, rotation) with closed-loop speed control using encoders and real-time Wi-Fi command input.
 MecanumBot_digital_mode
 
+## Author : ALEN VINOY
 
 ## Project Structure
 ```
@@ -33,15 +34,11 @@ MecanumBot_digital_mode/
   
 ## Key Features
 
-Omni-directional mecanum drive control
-
-Digital mode operation of RMCS-2303 drivers
-
-Closed-loop speed control using encoder feedback
-
-Real-time wireless command input via ESP32
-
-Modular firmware structure (Arduino + ESP32)
+- Omni-directional mecanum drive control
+- Digital mode operation of RMCS-2303 drivers
+- Closed-loop speed control using encoder feedback
+- Real-time wireless command input via ESP32
+- Modular firmware structure (Arduino + ESP32)
 
 RMCS-2303 Motor Driver Library
 
@@ -53,13 +50,12 @@ RMCS-2303 Digital Servo Motor Driver – Updated Datasheet
 
 ⚠️ Note: Ensure the RMCS-2303 driver is configured in digital mode and baud rate settings match the firmware.
 
-Communication Flow
+## Communication Flow
+```
 Wi-Fi Commands → ESP32 → Serial/UART → Arduino Mega → RMCS-2303 → BLDC Motors
+```
+## Notes
 
-Notes
-
-venv, build artifacts, and temporary files are excluded via .gitignore
-
-This repository focuses on firmware and control logic
-
-Mechanical design and PCB files are not included
+- venv, build artifacts, and temporary files are excluded via .gitignore
+- This repository focuses on firmware and control logic
+- Mechanical design and PCB files are not included
